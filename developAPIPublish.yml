@@ -1,0 +1,47 @@
+trigger:
+- develop
+
+pool: 'Poolfirst'
+  
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+
+- script: |
+      cd ProgettoDiGruppoAzAmm
+      dotnet restore
+  displayName: Ripristina i pacchetti NuGet
+
+- script: dotnet build --configuration $(buildConfiguration)
+  displayName: Compilazione dell'intero progetto
+
+#- script: |
+#     cd ProgettoDiGruppoAzAmm\AziendaTicketAMM_WebApi
+#     dotnet test --configuration $(buildConfiguration) --logger "trx;LogFileName=testresults.trx"
+#  displayName: Esecuzione batteria di Test del progetto API
+
+#- task: PublishTestResults@2
+#  inputs:
+#     testRunner: VSTest
+#     testResultsFiles: '**/*.trx'
+
+- script: |
+     cd ProgettoDiGruppoAzAmm\AziendaTicketAMM_WebApi
+     dotnet publish --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)
+  displayName: Compilazione (x Pubblicazione) del progetto API
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.BinariesDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
+
+- task: PublishBuildArtifacts@1
+  displayName: Publish to Artifact
+  inputs:
+    PathtoPublish: '$(Build.BinariesDirectory)'
+  condition: succeededOrFailed()  

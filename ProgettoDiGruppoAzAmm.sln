@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AziendaTicketAMM_HttpCLIENT", "ConsoleApp\AziendaTicketAMM_HttpCLIENT.csproj", "{C8E2BC3D-0198-4241-BE30-C97DF47C4CF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AziendaTicketAMM_CORE", "AziendaTicketAMM_CORE\AziendaTicketAMM_CORE.csproj", "{212C480D-553E-4E7C-8722-CD911EF8D780}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AziendaTicketAMM_EF", "AziendaTicketAMM_EF\AziendaTicketAMM_EF.csproj", "{821F2E60-896D-405A-98C5-F9BD252EF073}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AziendaTicketAMM_WebApi", "AziendaTicketAMM_WebApi\AziendaTicketAMM_WebApi.csproj", "{2458B85D-2FD0-47A3-B532-91AE5D74F79D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AziendaTicketAMM_TESTProject", "AziendaTicketAMM_TESTProject\AziendaTicketAMM_TESTProject.csproj", "{54F23D7E-41AE-4A43-ADE7-F2946A000913}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{37882111-BD0D-4ADF-AA4C-11ED289D4D70}"
+	ProjectSection(SolutionItems) = preProject
+		developAPIBuild.yml = developAPIBuild.yml
+		developAPIPublish.yml = developAPIPublish.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8E2BC3D-0198-4241-BE30-C97DF47C4CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E2BC3D-0198-4241-BE30-C97DF47C4CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E2BC3D-0198-4241-BE30-C97DF47C4CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E2BC3D-0198-4241-BE30-C97DF47C4CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212C480D-553E-4E7C-8722-CD911EF8D780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212C480D-553E-4E7C-8722-CD911EF8D780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212C480D-553E-4E7C-8722-CD911EF8D780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212C480D-553E-4E7C-8722-CD911EF8D780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821F2E60-896D-405A-98C5-F9BD252EF073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821F2E60-896D-405A-98C5-F9BD252EF073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821F2E60-896D-405A-98C5-F9BD252EF073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821F2E60-896D-405A-98C5-F9BD252EF073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2458B85D-2FD0-47A3-B532-91AE5D74F79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2458B85D-2FD0-47A3-B532-91AE5D74F79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2458B85D-2FD0-47A3-B532-91AE5D74F79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2458B85D-2FD0-47A3-B532-91AE5D74F79D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F23D7E-41AE-4A43-ADE7-F2946A000913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F23D7E-41AE-4A43-ADE7-F2946A000913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F23D7E-41AE-4A43-ADE7-F2946A000913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F23D7E-41AE-4A43-ADE7-F2946A000913}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F354D620-706B-4E92-AE34-81B29DF090F6}
+	EndGlobalSection
+EndGlobal

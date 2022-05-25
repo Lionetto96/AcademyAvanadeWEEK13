@@ -1,0 +1,18 @@
+trigger:
+- develop
+
+pool: 'Poolfirst'
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+- script: | 
+      cd ProgettoDiGruppoAzAmm
+      dotnet restore
+  displayName: Ripristina i pacchetti NuGet
+
+- script: |
+     cd ProgettoDiGruppoAzAmm\AziendaTicketAMM_WebApi
+     dotnet build --configuration $(buildConfiguration)
+  displayName: Compilazione del progetto API
