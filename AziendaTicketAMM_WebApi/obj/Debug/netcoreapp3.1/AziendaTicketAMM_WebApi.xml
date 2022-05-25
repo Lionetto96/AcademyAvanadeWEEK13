@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AziendaTicketAMM_WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.AddTicket(AziendaTicketAMM_CORE.Models.Ticket)">
+            <summary>
+            AddTicket
+            </summary>
+        </member>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.FetchAllTicket">
+            <summary>
+            FetchTicket
+            </summary>
+        </member>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.UpdateTicket(AziendaTicketAMM_CORE.Models.Ticket)">
+            <summary>
+            UpdateTicket
+            </summary>
+            <param name="ticket"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.ChiusuraTicket(AziendaTicketAMM_CORE.Models.Ticket,AziendaTicketAMM_CORE.Models.Stato)">
+            <summary>
+            ChiusuraTicket
+            </summary>
+            <param name="ticket"></param>
+            <param name="stato"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.AddStato(AziendaTicketAMM_CORE.Models.Stato)">
+            <summary>
+            AddStato
+            </summary>
+        </member>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.FetchAllStato">
+            <summary>
+            FetchStato
+            </summary>
+        </member>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.FetchStatoById(System.Int32)">
+            <summary>
+            FetchStatoById
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.DeleteStato(System.Int32)">
+            <summary>
+            DeleteStatoById
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.UpdateStato(System.Int32)">
+            <summary>
+            UpdateStatoById
+            </summary>
+            <param name="idstato"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.FetchAllCategoria">
+            <summary>
+            FetchCategoria
+            </summary>
+        </member>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.FetchCategoriaById(System.Int32)">
+            <summary>
+            FetchCategoriaById
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.AddCategoria(AziendaTicketAMM_CORE.Models.Categoria)">
+            <summary>
+            AddCategoria
+            </summary>
+        </member>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.DeleteCategoria(System.Int32)">
+            <summary>
+            DeleteCategoriaById
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AziendaTicketAMM_WebApi.Controllers.TicketController.UpdateCategoria(System.Int32)">
+            <summary>
+            UpdateCategoriaById
+            </summary>
+            <param name="idcategoria"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
