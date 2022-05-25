@@ -1,0 +1,10 @@
+C:\Users\alessia.lionetto\source\repos\Week13\ProgettoDiGruppoAzAmm\AziendaTicketAMM_CORE\bin\Debug\netstandard2.0\AziendaTicketAMM_CORE.deps.json
+C:\Users\alessia.lionetto\source\repos\Week13\ProgettoDiGruppoAzAmm\AziendaTicketAMM_CORE\bin\Debug\netstandard2.0\AziendaTicketAMM_CORE.dll
+C:\Users\alessia.lionetto\source\repos\Week13\ProgettoDiGruppoAzAmm\AziendaTicketAMM_CORE\bin\Debug\netstandard2.0\AziendaTicketAMM_CORE.pdb
+C:\Users\alessia.lionetto\source\repos\Week13\ProgettoDiGruppoAzAmm\AziendaTicketAMM_CORE\obj\Debug\netstandard2.0\AziendaTicketAMM_CORE.csproj.AssemblyReference.cache
+C:\Users\alessia.lionetto\source\repos\Week13\ProgettoDiGruppoAzAmm\AziendaTicketAMM_CORE\obj\Debug\netstandard2.0\AziendaTicketAMM_CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alessia.lionetto\source\repos\Week13\ProgettoDiGruppoAzAmm\AziendaTicketAMM_CORE\obj\Debug\netstandard2.0\AziendaTicketAMM_CORE.AssemblyInfoInputs.cache
+C:\Users\alessia.lionetto\source\repos\Week13\ProgettoDiGruppoAzAmm\AziendaTicketAMM_CORE\obj\Debug\netstandard2.0\AziendaTicketAMM_CORE.AssemblyInfo.cs
+C:\Users\alessia.lionetto\source\repos\Week13\ProgettoDiGruppoAzAmm\AziendaTicketAMM_CORE\obj\Debug\netstandard2.0\AziendaTicketAMM_CORE.csproj.CoreCompileInputs.cache
+C:\Users\alessia.lionetto\source\repos\Week13\ProgettoDiGruppoAzAmm\AziendaTicketAMM_CORE\obj\Debug\netstandard2.0\AziendaTicketAMM_CORE.dll
+C:\Users\alessia.lionetto\source\repos\Week13\ProgettoDiGruppoAzAmm\AziendaTicketAMM_CORE\obj\Debug\netstandard2.0\AziendaTicketAMM_CORE.pdb
